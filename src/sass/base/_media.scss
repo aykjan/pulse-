@@ -1,0 +1,44 @@
+@media (max-width:576px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            font-size: 24px;
+            line-height: normal;
+        }
+        &__subheader {
+            margin-top: 0;
+            font-size: 14px;
+            line-height: normal;
+        }
+        &__icons {
+            width: 100%;
+            margin-top: 18px;
+        }
+        &__icon {
+            font-size: 12px;
+            img {
+                width: 38px;
+                margin-bottom: 9px;
+            }
+        
+        }
+        &__link {
+            margin-top: 18px;
+            font-size: 11px;
+            a {
+                text-transform: lowercase;
+                margin-left: 5px;
+            }
+        }
+    }
+    .button {
+        &_main {
+            margin-top: 45px;
+            width: 185px;
+            height: 36px;
+            font-size: 12px;
+        }
+    }
+}
