@@ -3,42 +3,73 @@
         &__wrapper {
             align-items: center;
         }
+
         &__header {
             font-size: 24px;
             line-height: normal;
         }
+
         &__subheader {
             margin-top: 0;
             font-size: 14px;
             line-height: normal;
         }
+
         &__icons {
             width: 100%;
             margin-top: 18px;
         }
+
         &__icon {
             font-size: 12px;
+
             img {
                 width: 38px;
                 margin-bottom: 9px;
             }
-        
+
         }
+
         &__link {
-            margin-top: 18px;
+            margin-top: 8px;
             font-size: 11px;
+
             a {
                 text-transform: lowercase;
                 margin-left: 5px;
             }
         }
     }
+
+    .header {
+        align-items: normal;
+        &__logo {
+            width: 130px;
+            margin-left: 5px;
+        }
+        &__oficcal {
+            font-size: 11px;
+            span {
+                font-size: 10px;
+            }
+        }
+        &__contacts {
+            align-items: center;
+        }
+        &__phone {
+            font-size: 11px;
+        }
+    }
+
     .button {
+        width: 104px;
+        font-size: 9px;
+        margin-top: 5px;
         &_main {
-            margin-top: 45px;
+            margin-top: 35px;
             width: 185px;
             height: 36px;
-            font-size: 12px;
+            font-size: 11px;
         }
     }
 }
