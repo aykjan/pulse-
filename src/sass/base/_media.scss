@@ -70,6 +70,10 @@
             width: 185px;
             height: 36px;
             font-size: 11px;
+        
+        }
+        &_submit {
+            width: 220px;
         }
     }
     .advantages {
@@ -98,5 +102,20 @@
     }
     .textsolid {
         font-size: 20px;
+        &_left {
+            text-align: center;
+            line-height: 36px;
+        }
+    }
+    .consultation {
+        &__descr {
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+    .feed-form {
+        width: auto;
+        align-items: center;
+
     }
 }
