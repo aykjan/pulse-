@@ -23,7 +23,15 @@ const slider = tns({
   slideBy: 'page',
   autoplay: false,
   controls:false,
-  nav:false
+  nav:false,
+  responsive: {
+    320: {
+      gutter: 20,
+      items: 1,
+      touch:true,
+      center:true
+    },
+  }
 });
 document.querySelector('.next').addEventListener('click',()=>{
   slider.goTo('next');

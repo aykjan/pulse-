@@ -43,19 +43,24 @@
 
     .header {
         align-items: normal;
+
         &__logo {
             width: 130px;
             margin-left: 5px;
         }
+
         &__oficcal {
             font-size: 11px;
+
             span {
                 font-size: 10px;
             }
         }
+
         &__contacts {
             align-items: center;
         }
+
         &__phone {
             font-size: 11px;
         }
@@ -65,57 +70,127 @@
         width: 104px;
         font-size: 9px;
         margin-top: 5px;
+
         &_main {
             margin-top: 35px;
             width: 185px;
             height: 36px;
             font-size: 11px;
-        
+
         }
+
         &_submit {
             width: 220px;
         }
     }
+
     .advantages {
-    
-			
+
+
         padding: 20px 0 83px 0;
+
         &__icons {
             flex-direction: column;
             margin-top: 15px;
-            
+
         }
+
         &__icon {
             max-width: none;
+
             img {
                 margin-top: 20px;
             }
+
             &-header {
                 margin-top: 0px;
             }
+
             &-subheader {
                 margin-top: 5px;
                 font-size: 10px;
             }
         }
-        
+
     }
+
     .textsolid {
         font-size: 20px;
+
         &_left {
             text-align: center;
             line-height: 36px;
         }
     }
+
     .consultation {
         &__descr {
             font-size: 15px;
             text-align: center;
         }
     }
+
     .feed-form {
         width: auto;
         align-items: center;
 
+    }
+
+    .carusel {
+        .prev, .next {
+            display: none;
+        }
+        .tns-item {
+            img {
+                width: 100%;
+            }
+        }
+
+    }
+
+    .catalog {
+        padding-bottom: 30px;
+
+        &-item {
+            width: 278px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+        }
+
+        &__tabs {
+            margin-top: 40px;
+        }
+
+        &__tab {
+            width: 90px;
+            margin: 0 12px;
+            font-size: 9px;
+        }
+    }
+
+    .reviews {
+        &__block {
+            display: flex;
+            margin-top: -28px;
+            flex-direction: column;
+        }
+
+        &__item {
+            flex-direction: column;
+        }
+
+        &__img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        &__text-wrapper {
+            display: block;
+            text-align: center;
+        }
+
+        &__descr {
+            margin-top: 5px;
+        }
     }
 }
