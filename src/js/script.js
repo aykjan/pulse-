@@ -141,7 +141,7 @@ $(document).ready(function () {
     }
   })
 
-  $("a[href^='#']").on("click", function () {
+  $("a[href='#up']").on("click", function () {
     let href = $(this).attr("href");
 
     $("html, body").animate({
@@ -151,5 +151,7 @@ $(document).ready(function () {
     return false;
 });
 
-new WOW().init();
+new WOW({
+
+}).init();
 })

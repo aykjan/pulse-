@@ -1,5 +1,165 @@
-@media (max-width:576px) {
+@media (max-width:991px) {
     .promo {
+        min-height: auto;
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            font-size: 24px;
+            line-height: normal;
+        }
+
+        &__subheader {
+            margin-top: 0;
+            font-size: 14px;
+            line-height: 3;
+        }
+        &__link {
+            margin-top: 13px;
+            font-size: 11px;
+
+            a {
+                margin-left: 5px;
+            }
+        }
+        &__icons {
+            margin-top: 16px;
+        }
+      
+    }
+    .header {
+        justify-content: space-around;
+        &__contacts {
+            align-items: center;
+        }
+        &__oficcal {
+            margin-right: 90px;
+        }
+
+        &__phone {
+            font-size: 11px;
+        }
+    }
+    .button {
+        width: 104px;
+        font-size: 9px;
+        margin-top: 5px;
+
+        &_main {
+            margin-top: 35px;
+            width: 185px;
+            height: 36px;
+            font-size: 11px;
+
+        }
+
+        &_submit {
+            width: 220px;
+        }
+    }
+    .textsolid {
+        font-size: 20px;
+
+        &_left {
+            text-align: center;
+            line-height: 36px;
+        }
+    }
+    .advantages {
+        min-height: auto;
+        padding: 40px 0 55px 0;
+        &__icons {
+            margin-top: 25px;
+        }
+        &__icon-header {
+            margin-top: 14px;
+        }
+        &__icon-subheader {
+            margin-top: 8px;
+            font-size: 11px;
+        }
+    }
+
+    .consultation {
+        min-height: auto;
+        padding-top: 43px;
+        &__descr {
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+
+    .feed-form {
+        width: auto;
+        align-items: center;
+        input {
+            width: 320px;
+        }
+
+    }
+
+    .carusel {
+        .prev, .next {
+            display: none;
+        }
+        .tns-item {
+            img {
+                width: 60%;
+            }
+        }
+
+    }
+
+    .catalog {
+        &-item {
+            width: 267px;
+            margin-bottom: 40px;
+        }
+        &__tabs {
+            margin-top: 35px;
+        }
+        &__tab {
+            width: 160px;
+            margin: 0 16px;
+            font-size: 14px;
+        }
+        &__content {
+            justify-content: space-around;
+        }
+    }
+    .reviews {
+        &__block {
+            margin-top: 39px;
+        }
+        &__text-wrapper {
+            margin-left: 50px;
+        }
+        &__img {
+            width: 140px;
+            margin-left: 21px;
+        }
+    }
+    .footer {
+        &__info {
+            width: auto;
+        }
+    }
+    .pageup {
+        right: 10px;
+    }
+    .modal {
+        &__close {
+            right: 6px;
+            top: 22px;
+        }
+    }
+}
+
+
+
+@media (max-width:575px) {
+    .promo {
+        min-height: auto;
         &__wrapper {
             align-items: center;
         }
@@ -50,6 +210,7 @@
         }
 
         &__oficcal {
+            margin-right: 0;
             font-size: 11px;
 
             span {
@@ -97,6 +258,9 @@
 
         &__icon {
             max-width: none;
+            &_animated {
+                animation:none;
+            }
 
             img {
                 margin-top: 20px;
@@ -107,7 +271,7 @@
             }
 
             &-subheader {
-                margin-top: 5px;
+                margin-top: 10px;
                 font-size: 10px;
             }
         }
@@ -133,6 +297,9 @@
     .feed-form {
         width: auto;
         align-items: center;
+        input {
+            width: initial;
+        }
 
     }
 
@@ -182,15 +349,61 @@
         &__img {
             display: block;
             margin: 0 auto;
+            width: auto;
         }
 
         &__text-wrapper {
             display: block;
             text-align: center;
+            margin-left: 62px;
         }
 
         &__descr {
             margin-top: 5px;
+        }
+    }
+    .wow {
+        visibility: visible;
+    }
+    .animate__fadeInUp {
+        animation: none
+    }
+    .footer {
+        &__info {
+            padding-top: 18px ;
+            width: 274px;
+            height: 212px;
+        }
+        &__addr {
+            margin-bottom: 11px;
+            font-size: 14px;
+        }
+        &__phone {
+            font-size: 15px;
+        }
+        &__social-item {
+            img {
+                height: 27px;
+                width: 45px;
+            }
+        }
+    }
+    .pageup {
+        right: 0;
+        img {
+            width: 90%;
+        }
+    }
+    .modal {
+        width: 305px;
+        &__close {
+            right: -1px;
+            top: 0;
+            font-size: 41px;
+            cursor: none;
+        }
+        &__descr {
+            font-size: 11px;
         }
     }
 }
